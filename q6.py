@@ -27,5 +27,5 @@ print(find_first_nagative([3, 5, -1, 7, -2, 8]))
 print(find_first_negatives([2, 10, 7, 0]))
 
 # Expected output
--1
-No negatives
+#-1
+#No negatives

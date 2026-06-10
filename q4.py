@@ -20,5 +20,5 @@ print(string_reverse("Hello World"))
 print(string_reverse("Python"))
 
 # Expected output
-dlorW olleH
-nohtyP
+#dlorW olleH
+#nohtyP

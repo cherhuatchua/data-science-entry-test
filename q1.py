@@ -8,7 +8,7 @@ def swap(x, y):
     """
 
     # Check x and y are numeric
-    If not isinstance(x, (int, float)) or not isinstance(y, (int, float));
+    if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
         return -1
 
     # swap x and y
@@ -26,8 +26,8 @@ def swap(x, y):
 # - 9, 17
 
 # Expected output
--1
+#-1
 
-Swapped values: 
-x = 17
-y = 9
+#Swapped values: 
+#x = 17
+#y = 9

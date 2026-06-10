@@ -11,7 +11,7 @@ def check_divisibility(num, divisor):
         raise TypeError("Both num and divisor must be numeric numbers.")
 
     # check division by 0
-    if divisor == 0
+    if divisor == 0:
         raise ValueError("Divisor cannot be 0.")
 
     # return division result
@@ -27,5 +27,5 @@ print(check_divisibility(10, 2))
 print(check_divisibility(7, 3))
 
 # Expected output
-True
-False
+#True
+#False

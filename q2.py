@@ -7,7 +7,7 @@ def find_and_replace(lst, find_val, replace_val):
     """
 
     # Check if lst is a list
-    If not isinstance(lst, list):
+    if not isinstance(lst, list):
         return -1
 
     # Replace matching values
@@ -31,5 +31,5 @@ result2 = find_and_replace(fruits, "apple", "durian")
 print(result2)
 
 # Expected output
-[1, 9, 3, 4, 9, 9, 9, 5]
-['durian', 'banana', 'durian', 'durian', 'orange']
+#[1, 9, 3, 4, 9, 9, 9, 5]
+#['durian', 'banana', 'durian', 'durian', 'orange']
